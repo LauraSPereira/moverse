@@ -67,7 +67,7 @@ nav a:hover {
 body {
     margin: 0;
     padding: 0px;
-    background-image: url(IMAGEM/contato.png);
+    background-image: url(imagens/contato.png);
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
