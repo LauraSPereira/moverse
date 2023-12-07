@@ -91,7 +91,7 @@ ul {
 
 .inicial {
     height: 50vh;
-    background-image: url("IMAGEM/teste.png");
+    background-image: url("imagens/teste.png");
     background-size: cover;
     background-repeat: no-repeat;
     padding: 16px;
