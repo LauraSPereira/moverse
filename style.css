@@ -1,0 +1,274 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    gap: 40px;
+}
+
+.menu {
+    color: #fff;
+    font-family: 'Open Sans';
+    font-size: 16px;
+    font-weight: 800;
+    line-height: 50px;
+
+    background: var(--principal-2, #593000);
+    display: flex;
+    padding: 24px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    width: 128px;
+    height: 67px;
+    flex-shrink: 0;
+    
+}
+
+.rodape {
+    display: flex;
+    align-items: center;
+    background: var(--principal-2, #593000);
+    width: 100%;
+    padding: 8px;
+    justify-content: space-between;
+}
+
+.fotor {
+    width: 50px;
+}
+
+.direitos {
+    color: var(--secundria-0, #FFF5D6);
+    text-align: right;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20px;
+    /* 125% */
+}
+
+.destaques {
+    background-color: #f5f5f5;
+    padding: 20px;
+    text-align: center;
+    font-family: 'Open Sans';
+    font-weight: bold;
+}
+
+.destaque-item {
+    margin: 20px;
+    display: inline-block;
+    text-align: center;
+    font-family: 'Open Sans';
+}
+
+.destaque-img {
+    max-width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100vw;
+}
+
+.destaque-nome {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.destaque-valor {
+    color: #593000;
+    margin-top: 5px;
+    font-weight: bolder;
+}
+
+.inicial {
+    height: 50vh;
+    background-image: url("IMAGEM/teste.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+
+}
+h1{
+    color: var(--principal-2, #593000);
+    text-shadow: 0px 4px 4px rgba(255, 255, 255, 0.50);
+    font-family: Open Sans;
+    font-size: 88px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 50px; /* 39.063% */
+}
+h3{   
+    color: var(--principal-2, #593000);
+    text-shadow: 0px 4px 4px #FFF;
+    font-family: Open Sans;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 50px; /* 138.889% */
+}
+header a {
+    text-decoration: none;
+    color: #fff;
+}
+nav a:hover {
+    color: #B26C1B;
+}
+.popup-conteudo {
+    position: fixed;
+    /* terá uma posição absoluta em relação ao seu ancestral mais próximo com uma posição definida.  */
+    top: 50%;
+    /* colocam o elemento no meio da tela. */
+    left: 50%;
+    /* colocam o elemento no meio da tela. */
+    transform: translate(-50%, -50%);
+    /* metade de sua própria largura e metade de sua própria altura, efetivamente centralizando-o na tela. */
+    background-color:  rgba(77, 77, 76, 15);
+    padding: 30px;
+    /* preenchimento de 20px ao redor do conteúdo */
+    border-radius: 12px;
+    /* Arredonda as bordas do elemento */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    /* Adiciona uma sombra ao redor do elemento */
+    width: 500px;
+}
+.fechar {
+    position: fixed;
+    /*  elemento terá uma posição absoluta  */
+    top: 10px;
+    /* Posiciona o elemento, 10 pixels de distância do topo  */
+    right: 10px;
+    /* Posiciona o elemento,10 pixels de distância da direita */
+    font-size: 20px;
+    /* tamanho da fonte do texto  */
+    cursor: pointer;
+    /*  cursor do mouse como um ponteiro ao passar sobre o elemento. */
+}
+.form-group{
+    width: 80%;
+}
+.button{
+    margin: 24px;
+}
+.login-container {
+    padding: 30px;
+    /*definir uma distância interna entre um elemento e sua borda*/
+    border-radius: 8px;
+    /*definir bordas arredondadas*/
+    box-shadow: 0 4px 8px rgba(157, 143, 143, 0.1);
+    /*efeitos de sombra em volta de um elemento*/
+    max-width: 500px;
+    /*largura máxima de um elemento*/
+    width: 100%;
+    /*largura*/
+    text-align: center;
+    /*defini o alinhamento horizontal do texto*/
+    display: flex;
+    /*organizar os elementos na página*/
+    justify-content: center;
+    /*alinhar os elementos reto*/
+    align-items: center;
+    /*alinhamento de todos os itens transversal*/
+    text-align: center;
+
+}
+.form-group {
+    margin-bottom: 10px;
+    /*define a margem na parte inferior de um elemento.*/
+    text-align: left;
+    /*defini o alinhamento horizontal do texto*/
+    width: 100%;
+    /*largura*/
+    padding: 8px;
+    /*definir uma distância interna entre um elemento e sua borda*/
+    border-radius: 30px 30px 30px 30px;
+    /*definir bordas arredondadas*/
+    background-color: #000000;
+    /*define a cor de fundo de um elemento.*/
+    border: none;
+    /*adiciona um contorno em volta de um elemento*/
+    color: antiquewhite;
+    /*cor da letra*/
+}
+.button {
+    border: none;
+    /*adiciona um contorno em volta de um elemento*/
+    padding: 10px 20px;
+    /*definir uma distância interna entre um elemento e sua borda*/
+    border-radius: 13.055px;
+    /*definir bordas arredondadas*/
+    font-size: 16px;
+    /*tamanho da fonte*/
+    background-color: #ffffff
+        /*define a cor de fundo de um elemento.*/
+
+
+}
+button:hover {
+    background-color: #CC893D;
+    /*define a cor de fundo de um elemento.*/
+}
+.cadastro {
+    color: var(--principal-02, #CC893D);
+    /*cor da letra*/
+    font-family: Open Sans;
+    /*fonte da letra*/
+    font-style: normal;
+    /*estilo da fonte*/
+    font-weight: 600;
+    /*intensidade da fonte*/
+    text-align: center;
+    /*defini o alinhamento horizontal do texto*/
+    font-size: 70px;
+    /*tamanho da fonte*/
+    margin-bottom: 40px;
+    /*define a margem na parte inferior de um elemento.*/
+    width: 100%;
+    /*largura*/
+}
+.termo {
+    color: #FFF;
+    /*cor da letra*/
+    font-family: Open Sans;
+    /*fonte da letra*/
+    font-size: 15px;
+    /*tamanho da fonte*/
+    font-style: normal;
+    /*estilo da fonte*/
+    font-weight: 600;
+    /*intensidade da fonte*/
+    line-height: 50px;
+    /*espaçamento entre as linhas*/
+}
+.paragrafo {
+    color: #FFF;
+    /*cor da letra*/
+    font-family: Open Sans;
+    /*fonte da letra*/
+    font-size: 24px;
+    /*tamanho da fonte*/
+    font-style: normal;
+    /*estilo da fonte*/
+    font-weight: 800;
+    /*intensidade da fonte*/
+    line-height: 50px;
+    /*espaçamento entre as linhas*/
+}
+.cadastro{
+    font-size: 64px;
+}
+#popup{
+    display: none;
+}
