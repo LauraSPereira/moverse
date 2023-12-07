@@ -1,0 +1,132 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    gap: 40px;
+}
+
+.menu {
+    color: #fff;
+    font-family: 'Open Sans';
+    font-size: 16px;
+    font-weight: 800;
+    line-height: 50px;
+
+    background: var(--principal-2, #593000);
+    display: flex;
+    padding: 24px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    width: 128px;
+    height: 67px;
+    flex-shrink: 0;
+}
+
+.rodape {
+    display: flex;
+    align-items: center;
+    background: var(--principal-2, #593000);
+    width: 100%;
+    padding: 8px;
+    justify-content: space-between;
+}
+
+.fotor {
+    width: 50px;
+}
+
+.direitos {
+    color: var(--secundria-0, #FFF5D6);
+    text-align: right;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20px;
+    /* 125% */
+}
+
+header a {
+    text-decoration: none;
+    color: #fff;
+}
+
+nav a:hover {
+    color: #B26C1B;
+}
+
+body {
+    margin: 0;
+    padding: 0px;
+    background-image: url(IMAGEM/contato.png);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    font-family: Open Sans;
+}
+.contato{
+    padding: 20px;
+}
+
+.contato-form {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    width: 80vw;
+    align-items: center;
+    margin: auto;
+
+}
+
+.contato-form h2 {
+    text-align: center;
+}
+
+.contato-form label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.contato-form input[type="text"],
+.contato-form input[type="email"],
+.contato-form input[type="tel"],
+.contato-form input[type="interesse"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+
+.contato-form button {
+    background-color: #CC893D;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.info-empresa {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    max-width: 400px;
+    margin: 20px auto;
+    border-radius: 5px;
+}
+
+.info-empresa h3 {
+    text-align: center;
+}
